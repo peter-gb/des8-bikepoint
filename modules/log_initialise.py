@@ -1,12 +1,12 @@
 import os
 import logging
-from datetime import datetime
+# from datetime import datetime
 
 def setup_logging(log_dir:str, timestamp:str):
     """This will initialise the logger.
 
     Args:
-        log_dir (str): where you want your los saved
+        log_dir (str): where you want your logs saved
         timestamp (str): the timestamp will be the name of the log file
     """
     # prepare logging

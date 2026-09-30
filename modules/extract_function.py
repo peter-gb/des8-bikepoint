@@ -35,9 +35,7 @@ def extract_json(url:str, data_dir:str, timestamp:str, max_retry:int, delay:int)
 
         # save the response data to a JSON file
         data = response.json()
-        with open(filename, "w") as file:
-            json.dump(data, file)
-
+    
         # do some error handling based on the status code of the response
         status = response.status_code
 
