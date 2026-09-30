@@ -22,7 +22,7 @@ data_dir = "data"
 
 # retry settings for extract
 max_retry = 5
-delay = 10
+delay = 10  
 
 # use extract function to extract
 extract_json(url, data_dir, timestamp, max_retry, delay)
