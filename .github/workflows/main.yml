@@ -8,7 +8,7 @@ on:
 jobs:
  build:
   runs-on: windows-latest
-  environment: des8-bike-point-env
+  environment: des8-bikepoint-env
   steps:
    - name: Checkout the repo
      uses: actions/checkout@v7
